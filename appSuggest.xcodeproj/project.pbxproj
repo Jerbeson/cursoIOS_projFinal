@@ -54,14 +54,38 @@
 		C2EAB2B520C89A4200155371 /* appSuggest */ = {
 			isa = PBXGroup;
 			children = (
-				C2EAB2B620C89A4200155371 /* AppDelegate.swift */,
-				C2EAB2B820C89A4200155371 /* ViewController.swift */,
-				C2EAB2BA20C89A4300155371 /* Main.storyboard */,
+				C2EAB2CA20C89C4900155371 /* Model */,
+				C2EAB2C920C89C0200155371 /* Controller */,
 				C2EAB2BD20C89A4300155371 /* Assets.xcassets */,
-				C2EAB2BF20C89A4300155371 /* LaunchScreen.storyboard */,
+				C2EAB2C820C89B8D00155371 /* View */,
 				C2EAB2C220C89A4300155371 /* Info.plist */,
+				C2EAB2B620C89A4200155371 /* AppDelegate.swift */,
 			);
 			path = appSuggest;
+			sourceTree = "<group>";
+		};
+		C2EAB2C820C89B8D00155371 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C2EAB2BA20C89A4300155371 /* Main.storyboard */,
+				C2EAB2BF20C89A4300155371 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C2EAB2C920C89C0200155371 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2EAB2B820C89A4200155371 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C2EAB2CA20C89C4900155371 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z2ZQH3WJBH;
 				INFOPLIST_FILE = appSuggest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jerbeson.appSuggest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z2ZQH3WJBH;
 				INFOPLIST_FILE = appSuggest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jerbeson.appSuggest;
 				PRODUCT_NAME = "$(TARGET_NAME)";

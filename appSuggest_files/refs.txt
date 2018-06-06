@@ -1,0 +1,5 @@
+https://presskits.armorgames.com
+
+https://stackoverflow.com/questions/24231680/loading-downloading-image-from-url-on-swift
+
+https://stackoverflow.com/questions/38038990/firebase-converting-snapshot-value-to-objects
